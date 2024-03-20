@@ -1,0 +1,62 @@
+*{
+    font-family:roboto;
+}
+
+.navbar-brand{
+
+    height:80px;
+    line-height:75px;
+    font-family: Playfair Display;
+    font-weight:600;
+    
+    
+}
+ .card, .text-center,.me {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+.instalogo{
+    width:20px;
+    margin-right:5px;
+    
+}
+@font-face { 
+    font-family: 'grandinsta'; 
+    src: 
+        url('font/Grandista\ Regular.otf') 
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+.instafont{
+    font-family:grandinsta;
+    
+}
+
+@font-face {
+    font-family: 'klavika'; 
+    src: 
+        url('font/klavika-regular-italic.otf') 
+        format('opentype'); 
+    font-weight: bolder; 
+    font-style: normal; 
+}
+.facefont{
+    font-family:'klavika'
+}
+.facelogo{
+    width:20px;
+    margin-right:5px;
+}
+.gitlogo{
+    width:20px;
+    margin-right:5px;
+
+}
+.card:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
